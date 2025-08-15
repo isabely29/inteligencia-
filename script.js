@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "A internet tem facilitado a comunicação global de maneira mais eficiente do que os meios tradicionais.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmação"
+                texto: "sim",
+                afirmacao: "A internet permite uma comunicação instantânea e global por meio de plataformas como e-mail, redes sociais e videoconferências, tornando a comunicação mais rápida e eficiente."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
+                texto: "Não",
+                afirmacao: "Apesar da conveniência, a comunicação online pode ser prejudicada por falhas de rede ou falta de acessibilidade em algumas regiões, enquanto meios tradicionais como o telefone ainda são mais confiáveis em certas situações."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "A privacidade na internet é suficientemente garantida pelos meios atuais de segurança digital.",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "afirmação"
+                texto: "Sim",
+                afirmacao: "Ferramentas como criptografia, autenticação de dois fatores e firewalls ajudam a garantir uma navegação mais segura e a proteção dos dados pessoais online."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
+                texto: "Não",
+                afirmacao: "As falhas de segurança e os vazamentos de dados pessoais continuam a ser um problema significativo, comprometendo a privacidade dos usuários na internet."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "As redes sociais são responsáveis por aumentar a sensação de conexão e bem-estar entre os usuários.",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                texto: "Sim",
+                afirmacao: "As redes sociais permitem que as pessoas se conectem com amigos e familiares, compartilhem experiências e se sintam mais envolvidas com o mundo ao seu redor."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "Não",
+                afirmacao: "As redes sociais permitem que as pessoas se conectem com amigos e familiares, compartilhem experiências e se sintam mais envolvidas com o mundo ao seu redor."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "O acesso irrestrito à internet pode ser prejudicial para o desenvolvimento de crianças e adolescentes.",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "Sim",
+                afirmacao: "A exposição precoce a conteúdo impróprio ou a dependência da tecnologia pode afetar o desenvolvimento cognitivo, emocional e social das crianças e adolescentes"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "Não",
+                afirmacao: "O acesso à internet, quando supervisionado e orientado, pode ser uma ferramenta valiosa de aprendizado e desenvolvimento para jovens, proporcionando acesso a recursos educacionais e oportunidades de socialização."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "A internet está tornando os empregos mais acessíveis e descentralizados, com maior possibilidade de trabalho remoto.",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "Sim",
+                afirmacao: "A internet permitiu que muitas pessoas trabalhassem de qualquer lugar, criando oportunidades de emprego para aqueles que antes não tinham acesso a empregos tradicionais."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                texto: "Não",
+                afirmacao: "Embora o trabalho remoto seja mais acessível para algumas áreas, ele pode ser desafiador em outras, com limitações tecnológicas e a necessidade de uma estrutura adequada para efetivamente desempenhar o trabalho."
             }
         ]
     },
